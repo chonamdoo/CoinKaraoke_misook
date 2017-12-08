@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">코인 노래방</string>
+    <string name="permission_cancel">"본어플은 서비스 이용을 위해 [통화상태] [네트워크변환상태] [저장소] 접근 권한 필요합니다 '거부'할 경우 서비스 이용에 제한이 있습니다."</string>
+    <string name="txt_finish_yes">"종료"</string>
+    <string name="txt_finish_no">"취소"</string>
+    <string name="txt_finish_ment">"종료하시겠습니까?"</string>
+    <string name="txt_main_activity2">컨텐츠 목록이 없습니다</string>
+    <string name="txt_main_activity3">데이터 연결상태 확인후 다시 시도해주세요</string>
+    <string name="txt_main_activity4">종료</string>
+    <string name="txt_main_activity5">잠시만 기다려주세요</string>
+    <string name="txt_main_activity6">"'뒤로'버튼을 한번 더  누르시면 종료됩니다."</string>
+    <string name="txt_main_activity7">취소</string>
+    <string name="txt_main_activity9">데이터 연결상태가 좋지않습니다 다운로드보관함 이용시오프라인 모드를 이용하세요</string>
+    <string name="txt_main_activity10">제목을 입력해주세요</string>
+    <string name="txt_main_activity11">"'즐겨찾기'항목에 추가하였습니다"</string>
+    <string name="txt_main_activity12">"'즐겨찾기'항목에서 삭제하였습니다"</string>
+    <string name="txt_main_activity13">"취소하기"</string>
+    <string name="txt_main_activity14">"다시시도"</string>
+    <string name="txt_main_activity15">"데이터 연결상태가 좋지않습니다\n다시 시도하시겠습니까?"</string>
+    <string name="txt_main_activity19">"'즐겨찾기'항목에 추가하였습니다"</string>
+    <string name="txt_main_activity20">"이미 추가하신 항목입니다"</string>
+    <string name="txt_main_activity21">"장르선택"</string>
+    <string name="txt_main_activity36">"com.coin.karaoke.misook.preferences""</string>
+    
+    <string name="txt_favorite_activity1">"'즐겨찾기'항목에서 삭제되었습니다"</string>
+    <string name="txt_favorite_activity2">"데이터 연결상태 확인후\n다시 시도해주세요"</string>
+    <string name="txt_favorite_activity3">"확인"</string>
+    <string name="txt_favorite_activity4">"즐겨찾기 보관함"</string>
+    
+    <string name="txt_continue_activity1">"'이어듣기'항목에서 삭제되었습니다"</string>
+    
+    
+    <string name="txt_continue_activity2">"데이터 연결상태 확인후 다시 시도해주세요"</string>
+    <string name="txt_continue_activity3">"확인"</string>
+    <string name="txt_continue_activity4">"전체선택"</string>
+    <string name="txt_continue_activity5">"연속듣기"</string>
+    <string name="txt_continue_activity6">"+가사 시작"</string>
+    <string name="txt_continue_activity7">"선택해제"</string>
+    <string name="txt_continue_activity8">"이어듣기 보관함"</string>
+    <string name="txt_continue_activity9">"-가사 시작"</string>
+    
+    <string name="txt_custom_mediaplayer1">"'처음'재생목록입니다"</string>
+     <string name="txt_custom_videoplayer1">"'처음'재생목록입니다"</string>
+     <string name="txt_favorite_activity5">"삭제"</string>
+     
+     <string name="txt_channel_title0">"전체"</string>
+     <string name="txt_channel_title1">"인기곡"</string>
+     <string name="txt_channel_title2">"발라드"</string>
+     <string name="txt_channel_title3">"RnB"</string>
+     <string name="txt_channel_title4">"힙합"</string>
+     <string name="txt_channel_title5">"락"</string>
+     <string name="txt_channel_title6">"댄스"</string>
+     <string name="txt_channel_title7">"트로트"</string>
+     <string name="txt_channel_title8">"동요"</string>
+     <string name="txt_channel_title9">"만화"</string>
+     <string name="txt_channel_title10">"기타장르"</string>
+     
+     <string name="txt_search_hint">"검색어를 입력해주세요"</string>
+     <string name="txt_search_empty">"검색어는 최소 1자 이상이어야 합니다"</string>
+     
+     <string name="txt_custom_videoplayer2">"'종료'하시려면 잠금버튼을 해제하세요"</string>
+     <string name="txt_custom_videoplayer3">"광고 후 종료됩니다"</string>
+     <string name="txt_custom_videoplayer4">"음악목록으로 복귀하시려면 일시정지 후 뒤로가기 누르시면 음악목록으로 복귀합니다"</string>
+     
+     <string name="error_player">"Youtube플레이어 업데이트하시거나\n설치되어있는지확인해주세요"</string>
+     <string name="txt_error">인터넷 연결상태가 좋지않거나\n컨텐츠가 삭제되었습니다\n불편을 드려죄송합니다\n인터넷 연결상태를 확인하세요</string>
+     <string name="txt_error2">영상이 부분적으로 짤리거나\n비정상적인 영상입니다\n불편을 드려죄송합니다</string>
+     <string name="txt_str8">"Mzk1OUQ3MEUzRjgxM0JDNkY4ODFBQTI4MjExRjUwRDEwQjNDOTI2QkNEQjExMEEwMjE3RkQ2NjNGMDhCNzIzMjYzRjkyRTZBNTNEM0ExNTVGMEU0RkExNzkyRjhEMzAwREE3NDUyRjE2QjAwRENFOTJDOUQyNkVDRDE3RTlGMUQ="</string>
+     <string name="sub6_txt8">"데이터 연결상태가 좋지않습니다\n다시 시도하시겠습니까?"</string>
+     <string name="txt_love_ment">""</string>
+     <string name="banner_ad_unit_id"></string>
+     
+     <string name="media_continue_ment">백그라운드에서 플레이합니다</string>
+     
+     <string name="txt_coin">"$ : "</string>
+     <string name="txt_coin_ment">"비디오 보고 코인이 충전됩니다"</string>
+     <string name="txt_plus_coin_ment1">"무료코인 이벤트"</string>
+     <string name="txt_plus_coin_ment2">"비디오 봐서 무료 코인 획득하자."</string>
+     <string name="txt_plus_coin_ment3">"죄송합니다!현재 비디오 이벤트가 없습니다 잠시 후 다시 시도해주세요"</string>
+     <string name="txt_alert_button_yes">"받기"</string>
+     <string name="txt_alert_button_no">"취소"</string>
+     
+     <string name="txt_alert_search_ment1">"검색!참고사항"</string>
+     <string name="txt_alert_search_ment2">"좀 더 정확한 노래검색을 위해 상단오른쪽 장르선택 '전체' 목록으로 변경됩니다!"</string>
+     <string name="txt_alert_search_ment3">"코인이 충전되었습니다"</string>
+     <string name="txt_alert_search_ment4">"보유코인 : $"</string>
+     <string name="txt_alert_search_button_yes">"확인"</string>
+     
+     <string name="txt_event_coin_ment1">"이벤트 지급코인 : $"</string>
+     <string name="txt_event_coin_ment2">"이벤트 코인이 지급되었습니다 앞으로도 많은이용 부탁드립니다"</string>
+</resources>

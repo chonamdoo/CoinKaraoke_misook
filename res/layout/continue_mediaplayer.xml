@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+     android:background="#ff4d4d4d"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+        android:gravity="center_vertical" 
+        android:id="@+id/topTitle" 
+        android:background="@drawable/top_bar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+            android:textAppearance="@style/titlebarRss"
+            android:ellipsize="marquee" android:gravity="center" 
+            android:layout_gravity="center_vertical" 
+            android:id="@+id/txt_description_title" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <LinearLayout
+             android:gravity="center" 
+             android:orientation="vertical" 
+             android:id="@+id/rssImageLayout" 
+             android:paddingLeft="20.0dip"
+             android:paddingTop="0.0dip"
+             android:paddingRight="20.0dip"
+             android:paddingBottom="0.0dip"
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content"
+             android:layout_weight="1.0">
+            <FrameLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content">
+                    <ImageView 
+			            android:id="@+id/btn_media_continue" 
+			            android:layout_width="wrap_content" 
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="10dip" 
+			            android:src="@drawable/ic_media_continue"/>
+                    <ImageView 
+                        android:layout_width="match_parent" 
+                        android:layout_height="match_parent" 
+                        android:src="@drawable/no_image" 
+                        android:layout_centerInParent="true" />
+                    <ImageView 
+                        android:id="@+id/img_image" 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/album_frame" 
+                        android:layout_centerInParent="true" />
+                    <LinearLayout 
+                        android:orientation="vertical"
+                        android:id="@+id/layout_progress" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="wrap_content" 
+                        android:layout_centerInParent="true" 
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true">
+                        <ProgressBar 
+                            android:layout_gravity="center" 
+                            android:id="@android:id/progress"
+                            android:paddingLeft="10.0dip"
+                            android:paddingRight="10.0dip"
+                            android:layout_width="wrap_content" 
+                            android:layout_height="wrap_content" 
+                            style="?android:progressBarStyle" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+        
+        <RelativeLayout
+          android:id="@+id/ad_layout"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:layout_gravity="center_horizontal"> 
+        </RelativeLayout>
+        
+        <LinearLayout
+             android:orientation="vertical" 
+             android:id="@+id/control_panel_layout"
+             android:background="@drawable/audio_player_background" 
+             android:layout_width="fill_parent" 
+             android:layout_height="wrap_content">
+            <TextView
+                 android:textSize="18.0dip"
+                 android:textColor="#ffffffff"
+                 android:ellipsize="marquee" 
+                 android:id="@+id/txt_title"
+                 android:layout_width="wrap_content" 
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10.0dip" 
+                 android:layout_marginTop="5.0dip" 
+                 android:marqueeRepeatLimit="marquee_forever"
+                 android:singleLine="true" />
+            <TextView
+                 android:visibility="invisible"
+                 android:textSize="12.0dip"
+                 android:textColor="#ffffffff" 
+                 android:ellipsize="marquee" 
+                 android:id="@+id/txt_pubDate" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="wrap_content" 
+                 android:layout_marginLeft="10.0dip" 
+                 android:layout_marginBottom="10.0dip"
+                 android:singleLine="true" />
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <SeekBar 
+                    android:id="@+id/mediacontroller_progress"
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_marginLeft="10.0dip" 
+                    android:layout_marginRight="10.0dip" 
+                    android:maxHeight="13.0dip"
+                    android:progressDrawable="@drawable/seekbar_style"
+                    android:minHeight="13.0dip" 
+                    android:thumb="@drawable/seek_thumb" />
+            </LinearLayout>
+            <FrameLayout 
+                android:id="@+id/time_layout" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0.0dip">
+                <TextView 
+                    android:textSize="10.0dip"
+                    android:layout_gravity="left" 
+                    android:id="@+id/current_time"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" 
+                    android:layout_marginLeft="10.0dip"
+                    android:text="00:00:00" />
+                
+                <TextView 
+                    android:textSize="10.0dip" 
+                    android:layout_gravity="right"
+                    android:id="@+id/max_time" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:layout_marginRight="10.0dip"
+					android:text="00:00:00" />
+            </FrameLayout>
+            
+            <LinearLayout 
+                android:gravity="center" 
+                android:orientation="horizontal" 
+                android:id="@+id/control_btn_layout"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip" 
+                android:layout_marginBottom="10.0dip">
+                <ImageButton 
+                    android:id="@+id/bt_rew" 
+                    android:layout_weight="1.0" 
+                    style="@style/MediaButton.Duration.Rew"/>
+                <ImageButton
+                     android:id="@+id/bt_duration_rew"
+                     android:layout_weight="1.0" 
+                     style="@style/MediaButton.Rew" />
+                <ImageButton
+                     android:id="@+id/bt_pause"
+                     android:layout_weight="1.0"
+                      style="@style/MediaButton.Play" />
+                <ImageButton 
+                    android:id="@+id/bt_duration_ffwd" 
+                    android:layout_weight="1.0"
+                    style="@style/MediaButton.Ffwd" />
+                <ImageButton 
+                    android:id="@+id/bt_ffwd" 
+                    android:layout_weight="1.0" 
+                    style="@style/MediaButton.Duration.Ffwd" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

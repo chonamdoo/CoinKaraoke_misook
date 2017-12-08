@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KPOP Karaoke</string>
+    <string name="permission_cancel">"This application requires [Call Status] [Network Conversion Status] [Writing Repository] access to use the service."</string>
+    <string name="txt_finish_yes">"Finish"</string>
+    <string name="txt_finish_no">"Cancel"</string>
+    <string name="txt_finish_ment">"Are you sure you want to quit?"</string>
+    <string name="txt_main_activity2">There is no data</string>
+    <string name="txt_main_activity3">Please checking the data connection\nPlease try again</string>
+    <string name="txt_main_activity4">Exit</string>
+    <string name="txt_main_activity5">Please Wait</string>
+    <string name="txt_main_activity6">"'Pressing the Back button exit"</string>
+    <string name="txt_main_activity7">Cancel</string>
+    <string name="txt_main_activity9">Please checking the data connection\nPlease try again</string>
+    <string name="txt_main_activity10">Please checking title</string>
+    <string name="txt_main_activity11">"'Favorites' item has been added"</string>
+    <string name="txt_main_activity12">"'Favorite' items have been delete"</string>
+    <string name="txt_main_activity13">"Cancel"</string>
+    <string name="txt_main_activity14">"Try again?"</string>
+    <string name="txt_main_activity15">"Please checking the data connection Please try again?"</string>
+    <string name="txt_main_activity19">"'Favorites' item has been added"</string>
+    <string name="txt_main_activity20">"The item has already been added"</string>
+    <string name="txt_main_activity21">"Category"</string>
+    <string name="txt_main_activity36">"com.coin.karaoke.misook.preferences""</string>
+    
+    <string name="txt_favorite_activity1">"'Favorite' items have been delete"</string>
+    <string name="txt_favorite_activity2">"Please checking the data connection\nPlease try again"</string>
+    <string name="txt_favorite_activity3">"Confirmation"</string>
+    <string name="txt_favorite_activity4">"Favorite"</string>
+    
+    <string name="txt_continue_activity1">"Delete"</string>
+    
+    
+    <string name="txt_continue_activity2">"Please checking the data connection Please try again"</string>
+    <string name="txt_continue_activity3">"Confirmation"</string>
+    <string name="txt_continue_activity4">"Select All"</string>
+    <string name="txt_continue_activity5">"Following"</string>
+    <string name="txt_continue_activity6">"+Lyrics Start"</string>
+    <string name="txt_continue_activity7">"Deselect"</string>
+    <string name="txt_continue_activity8">"Following Box"</string>
+    <string name="txt_continue_activity9">"-Lyrics Start"</string>
+    
+    <string name="txt_custom_mediaplayer1">"The first playlist"</string>
+    <string name="txt_custom_videoplayer1">"The first playlist"</string>
+    <string name="txt_favorite_activity5">"Delete"</string>
+     
+    <string name="txt_channel_title0">"All"</string>
+    <string name="txt_channel_title1">"Popular"</string>
+    <string name="txt_channel_title2">"Ballad"</string>
+    <string name="txt_channel_title3">"RnB"</string>
+    <string name="txt_channel_title4">"Hiphop"</string>
+    <string name="txt_channel_title5">"Rock"</string>
+    <string name="txt_channel_title6">"Dance"</string>
+    <string name="txt_channel_title7">"Trot"</string>
+    <string name="txt_channel_title8">"Children"</string>
+    <string name="txt_channel_title9">"Cartoon"</string>
+    <string name="txt_channel_title10">"Etc"</string>
+    
+    <string name="txt_search_hint">"Please enter your search query"</string>
+    <string name="txt_search_empty">"Keywords must be at least one character"</string>
+     
+    <string name="txt_custom_videoplayer2">"'Exit To get unlock button"</string>
+    <string name="txt_custom_videoplayer3">"Will end after ad"</string>
+    <string name="txt_custom_videoplayer4">""</string>
+     
+    <string name="error_player">"Not Install! YoutubePlayer Error"</string>
+    <string name="txt_error">Contents Deleted We apologize for any inconvenience</string>
+    <string name="txt_error2">Contents Deleted We apologize for any inconvenience</string>
+    <string name="txt_str8">"Mzk1OUQ3MEUzRjgxM0JDNkY4ODFBQTI4MjExRjUwRDEwQjNDOTI2QkNEQjExMEEwMjE3RkQ2NjNGMDhCNzIzMjYzRjkyRTZBNTNEM0ExNTVGMEU0RkExNzkyRjhEMzAwREE3NDUyRjE2QjAwRENFOTJDOUQyNkVDRDE3RTlGMUQ="</string>
+    <string name="sub6_txt8">"Please checking the data connection\nPlease try again?"</string>
+    <string name="txt_love_ment">""</string>
+    <string name="banner_ad_unit_id"></string>
+     
+    <string name="media_continue_ment">Background Play</string>
+     
+    <string name="txt_coin">"$ : "</string>
+    <string name="txt_coin_ment">"Video reports coin is charged"</string>
+    <string name="txt_plus_coin_ment1">"Free Coin events"</string>
+    <string name="txt_plus_coin_ment2">"Video reports coin is charged"</string>
+    <string name="txt_plus_coin_ment3">"Sorry! Current video events are not after a while and try again"</string>
+    <string name="txt_alert_button_yes">"Agree"</string>
+    <string name="txt_alert_button_no">"Cancel"</string>
+    
+    <string name="txt_alert_search_ment1">"Tip!"</string>
+    <string name="txt_alert_search_ment2">"Choose genre for a more precise song search is changed to 'complete' list!"</string>
+    <string name="txt_alert_search_ment3">"Coin has been charged"</string>
+    <string name="txt_alert_search_ment4">"Holding coin : $"</string>
+    <string name="txt_alert_search_button_yes">"Confirmation"</string>
+    
+    <string name="txt_event_coin_ment1">"Events coin payment : $"</string>
+    <string name="txt_event_coin_ment2">"Events coin has been paid! Thank You!"</string>
+</resources>
