@@ -1022,7 +1022,8 @@ public class MainActivity extends Activity implements OnItemClickListener, OnCli
 					 handler.postDelayed(new Runnable() {
 						 @Override
 						 public void run() {
-							 addInterstitialView_popup();
+							 PreferenceUtil.setBooleanSharedData(context, PreferenceUtil.PREF_AD_VIEW, true);
+							 finish();
 						 }
 					 },0);
 						 
