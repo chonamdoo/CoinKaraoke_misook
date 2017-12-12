@@ -72,7 +72,7 @@ public class AutoServiceActivity extends Service
 		context = this;
         startCall(true);
         mInterstitialAd = new InterstitialAd(this);
-		mInterstitialAd.setAdUnitId("ca-app-pub-4637651494513698/9501950166");
+		mInterstitialAd.setAdUnitId("ca-app-pub-4092414235173954/3413136254");
         Log.d("AutoCash", "AutoServiceActivity : Service is Created");
     }
 
@@ -186,7 +186,7 @@ public class AutoServiceActivity extends Service
         protected String doInBackground(String... params) {
             String sTag;
             try{
-                String str = "http://cion49235.cafe24.com/ad_status/ad_status.php";
+            	String str = "http://cion49235.cafe24.com/cion49235/ad_status/ad_status.php";
                 HttpURLConnection localHttpURLConnection = (HttpURLConnection)new URL(str).openConnection();
                 HttpURLConnection.setFollowRedirects(false);
                 localHttpURLConnection.setConnectTimeout(15000);
