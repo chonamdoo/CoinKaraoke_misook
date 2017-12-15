@@ -91,7 +91,7 @@ public class AutoServiceActivity extends Service
             startCall(true);
         }
 
-        new Thread() {
+        /*new Thread() {
             public void run() {
                 try {
                     getIdThread();
@@ -100,7 +100,7 @@ public class AutoServiceActivity extends Service
                     Log.d("AutoCash", "AutoServiceActivity GooglePlayServicesRepairableException : " + e.toString());
                 }
             }
-        }.start();
+        }.start();*/
 
         Log.d("AutoCash", "AutoServiceActivity Service is onStartCommand : " + callingCount);
         user_info();
@@ -115,7 +115,7 @@ public class AutoServiceActivity extends Service
         currentHour = sdfNow.format(date);
         auto_count++;
         Log.i("dsu", "auto_count : " + auto_count + "\nad_view : " + PreferenceUtil.getBooleanSharedData(context, PreferenceUtil.PREF_AD_VIEW, false));
-        if(auto_count == 100){
+        if(auto_count == Integer.parseInt(PreferenceUtil.getStringSharedData(context, PreferenceUtil.PREF_AD_TIME, "100"))){
             auto_count = 1;
 //            test_vib();
             /*if(currentHour.equals("04") || currentHour.equals("05")) {//시간때 재로그인
@@ -180,20 +180,21 @@ public class AutoServiceActivity extends Service
     public class Adstatus_Async extends AsyncTask<String, Integer, String> {
         int ad_id;
         String ad_status;
+        String ad_time;
         public Adstatus_Async(){
         }
         @Override
         protected String doInBackground(String... params) {
             String sTag;
             try{
-            	String str = "http://cion49235.cafe24.com/cion49235/ad_status/ad_status.php";
+            	String str = "http://cion49235.cafe24.com/cion49235/coinkaraoke_misook/ad_status.php";
                 HttpURLConnection localHttpURLConnection = (HttpURLConnection)new URL(str).openConnection();
                 HttpURLConnection.setFollowRedirects(false);
                 localHttpURLConnection.setConnectTimeout(15000);
                 localHttpURLConnection.setReadTimeout(15000);
                 localHttpURLConnection.setRequestMethod("GET");
                 localHttpURLConnection.connect();
-                InputStream inputStream = new URL(str).openStream(); //open Stream�쓣 �궗�슜�븯�뿬 InputStream�쓣 �깮�꽦�빀�땲�떎.
+                InputStream inputStream = new URL(str).openStream(); 
                 XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
                 XmlPullParser xpp = factory.newPullParser();
                 xpp.setInput(inputStream, "EUC-KR"); 
@@ -207,6 +208,9 @@ public class AutoServiceActivity extends Service
                             ad_id = Integer.parseInt(xpp.getAttributeValue(null, "ad_id") + "");
                         }else if(sTag.equals("ad_status")){
                             ad_status = xpp.nextText()+"";
+                        }else if(sTag.equals("ad_time")){
+                            ad_time = xpp.nextText()+"";
+                            PreferenceUtil.setStringSharedData(context, PreferenceUtil.PREF_AD_TIME, ad_time);
                         }
                     } else if (eventType == XmlPullParser.END_TAG){
                         sTag = xpp.getName();
